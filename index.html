@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramesh Neupane</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d6977ab1ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                   <a href=""> <img src="images/logo1.png" class="logo" alt=""></a>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#captures">Captures</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <h1>Hello, I am <span>Ramesh Neupane</span></h1>
+                    <p>A passionate learner from Nepal</p>
+                </div>
+            </div>
+        </div>
+        <!-- -------------------------about----------------------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about1">
+                        <img src="images/me.jpg" alt="">
+                    </div>
+                    <div class="about2">
+                        <h1 class="subtitle">About <span>Me</span></h1><br><br>
+                        <p>I'm a college student who wants to pursue a profession that
+                             will allow me to learn more about the industry, get relevant
+                            work experience, and position myself for future chances.
+                            I conjointly push myself by learning new things and taking on challenges.
+                              I am a self-motivated and enthusiastic individual.</p><br>
+
+                            <div class="tabs">
+                                <p class="tab active-link" onclick="Opentab('skills')">Skills</p>
+                                <p class="tab" onclick="Opentab('education')">Education</p>
+                                <p class="tab" onclick="Opentab('experience')">Experience</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Frontend Development</span> <br> &nbsp; &nbsp;&nbsp;&nbsp;  Knowledge of Html ,Css and JavaScript</li><br>
+                                    <li><span>Game Development</span> <br> &nbsp; &nbsp;&nbsp;&nbsp;  Basic Knowledge of Unity Game Engine</li>
+                                </ul>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2018-2020</span> <br> &nbsp; &nbsp;&nbsp;&nbsp;  Attended Highschool at Canvas Int'l College</li><br>
+                                    <li><span>2020-present </span> <br> &nbsp; &nbsp;&nbsp;&nbsp;  BIT at KIST College of Information Technology</li>
+                                </ul>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Currently I do not hold any Experiences Will be adding shortly.......</span> <br></li>
+                                 
+                                </ul>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------portfolio-------------------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle">My Works</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="images/acethegame.jpg" alt="">
+                        <div class="layer">
+                            <h3>AcetheGame</h3>
+                            <p>Survival based game made using unity. </p>
+                            <a href="https://ramesh-neupane.itch.io/acethegame"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/spaceship.jpg" alt="">
+                        <div class="layer">
+                            <h3>Shapeship Game</h3>
+                            <p>Canvas based JavaScript Game consisting of a spaceship destroying the astroids and achieving the score.</p>
+                            <a href="https://rameshneupane10.github.io/SpaceShip-Shooter/"><i class="fas fa-external-link-alt"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/flappy_bird.jpg" alt="">
+                        <div class="layer">
+                            <h3>flappy Bird</h3>
+                            <p>Canvas based JavaScript Game consiststing of a bird avoiding obstacles and achieving the score.</p>
+                            <a href="https://rameshneupane10.github.io/Flappy_bird/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="button">See more</a>
+            </div>
+        </div>
+
+
+        <!-- ------------------captures------------------- -->
+        <div id="captures">
+            <div class="container">
+                <h1 class="subtitle">Captures</h1>
+                <div class="pictures">
+                    <img src="images/bhairav.jpg"  height=100% width=30% alt="bhairav" > 
+                    <img src="images/flowers.jpg" height=100% width=30% alt="flowers">
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------------contact-------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p> <i class="fa-regular fa-envelope"></i>rameshnjr10@gmail.com</p>
+                        <p> <i class="fa-solid fa-phone"></i>+977 .........</p>
+                        <div class="social-media">
+                            <a href="https://www.instagram.com/raw.meesh/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/rameshnjr10"><i class="fab fa-facebook"></i></a>
+                            <a href="https://github.com/rameshneupane10"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/ramesh-neupane-485450285/"><i class="fab fa-linkedin"></i></a>
+
+                        </div>
+                        <a href="resume.pdf" download class="button btn">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea  name="Message" rows="6"  placeholder="Your Message" ></textarea>
+                            <button type="submit" class="button btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Ramesh Neupane</p>
+            </div>
+        </div>
+ 
+</body>
+<script src="script.js"></script>
+</html>
